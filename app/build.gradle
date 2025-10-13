@@ -68,8 +68,8 @@ dependencies {
     implementation 'androidx.webkit:webkit:1.14.0'
     implementation 'com.google.android.material:material:1.13.0'
     implementation 'org.jsoup:jsoup:1.18.1'
-    implementation "com.mikepenz:aboutlibraries-core:11.2.3"
-    implementation "com.mikepenz:aboutlibraries:11.2.3"
+    implementation "com.mikepenz:aboutlibraries-core:13.1.0"
+    implementation "com.mikepenz:aboutlibraries:13.1.0"
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
