@@ -1,2 +1,2 @@
 deep-translator==1.11.4
-requests==2.32.5
+requests==2.34.0
