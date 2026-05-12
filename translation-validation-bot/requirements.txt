@@ -1,2 +1,2 @@
-googletrans==4.0.2
-requests==2.32.5
+deep-translator==1.11.4
+requests==2.34.0

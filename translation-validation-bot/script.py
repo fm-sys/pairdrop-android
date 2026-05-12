@@ -1,6 +1,7 @@
 import os
 import time
-from googletrans import Translator
+from deep_translator import GoogleTranslator
+from deep_translator.exceptions import RequestError, ServerException
 import requests
 import re
 
@@ -15,11 +16,12 @@ def print2cache(str):
     printcache += str
     printcache += "\n"
 
-url = 'https://github.com/fm-sys/snapdrop-android/pull/' + INPUT_PR_NUMBER + '.diff'
+repository = os.getenv("GITHUB_REPOSITORY", "fm-sys/pairdrop-android")
+url = 'https://github.com/' + repository + '/pull/' + INPUT_PR_NUMBER + '.diff'
 r = requests.get(url + "", allow_redirects=True)
 text = r.content.decode()
 
-translator = Translator()
+translator = GoogleTranslator(source="auto", target="en")
 
 table_initialized = False
 counter = 0
@@ -32,16 +34,23 @@ for line in text.splitlines():
                 table_initialized = True
                 print2cache("ID|Translation|Reverse translated source string\n-|-|-")
             success = False
-            while not success:
-                counter = counter + 1
+            retries = 0
+            max_retries = 5
+            while not success and retries < max_retries:
+                counter += 1
+                retries += 1
                 try:
-                    translation = translator.translate(match.group(2).replace("\\n", " \\n "))
+                    source_text = match.group(2).replace("\\n", " \\n ")
+                    translated_text = translator.translate(source_text)
                     print("API call #" + str(counter) + " ok")
                     success = True
-                except:
-                    print("API call #" + str(counter) + " blocked, wait some seconds and try again...")
+                except (RequestError, ServerException, requests.RequestException):
+                    print("API call #" + str(counter) + " failed, wait some seconds and try again...")
                     time.sleep(60)
-            print2cache(f"{match.group(1)}|{translation.origin} ({translation.src})|{translation.text} ({translation.dest})")
+            if success:
+                print2cache(f"{match.group(1)}|{source_text} (auto)|{translated_text} (en)")
+            else:
+                print2cache(f"{match.group(1)}|translation failed|translation failed after {max_retries} retries")
         elif line.startswith("+++"):
             print2cache("\n\n" + line + "\n")
             table_initialized = False

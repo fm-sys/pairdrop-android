@@ -18,3 +18,5 @@
 !.idea/checkstyle-idea.xml
 *.iml
 *.lnk
+__pycache__/
+*.pyc
