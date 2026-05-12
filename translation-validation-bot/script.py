@@ -1,6 +1,7 @@
 import os
 import time
 from deep_translator import GoogleTranslator
+from deep_translator.exceptions import RequestError, ServerException
 import requests
 import re
 
@@ -43,7 +44,7 @@ for line in text.splitlines():
                     translated_text = translator.translate(source_text)
                     print("API call #" + str(counter) + " ok")
                     success = True
-                except Exception:
+                except (RequestError, ServerException, requests.RequestException):
                     print("API call #" + str(counter) + " failed, wait some seconds and try again...")
                     time.sleep(60)
             if success:
