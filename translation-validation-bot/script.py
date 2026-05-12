@@ -49,7 +49,7 @@ for line in text.splitlines():
             if success:
                 print2cache(f"{match.group(1)}|{source_text} (auto)|{translated_text} (en)")
             else:
-                print2cache(f"{match.group(1)}|translation failed|translation failed after retries")
+                print2cache(f"{match.group(1)}|translation failed|translation failed after {max_retries} retries")
         elif line.startswith("+++"):
             print2cache("\n\n" + line + "\n")
             table_initialized = False
