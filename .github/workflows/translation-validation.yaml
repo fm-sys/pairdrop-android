@@ -1,19 +1,20 @@
 name: Generate reverse translations
 on:
-  pull_request:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+    branches: [master]
+
+permissions:
+  contents: read
+  pull-requests: write
 
 jobs:
   translate:
-    if: ${{ github.head_ref == ' l10n_crowdin_translations' }}
+    if: ${{ github.event.pull_request.head.ref == 'l10n_crowdin_translations' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Get Pull Request Number
-        id: pr
-        run: echo "pull_request_number=$(gh pr view l10n_master --json number -q .number || echo "")" >> $GITHUB_OUTPUT
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/checkout@v4
       - name: Translate
         id: translate
         # we can give directory path that contains action.yaml or repo address in username/repository_name@version format
@@ -22,7 +23,7 @@ jobs:
         uses: ./translation-validation-bot/
         # pass user input as arguments
         with:
-          pr: ${{ steps.pr.outputs.pull_request_number }}
+          pr: ${{ github.event.pull_request.number }}
       # Temporarily disable console output, as it can't handle <"> characters correctly 
       #- name: Display translations
       #  run: |
