@@ -10,7 +10,6 @@
     <string name="onboarding_button_finish">完了</string>
     <string name="onboarding_choose_server">サーバー選択</string>
     <string name="onboarding_choose_server_short">サーバー選択</string>
-    <string name="onboarding_choose_server_description">このアプリはウェブアプリのSnapdropとPairDropに対応しています。\n以下のサーバーを選択するか、カスタムサーバーのURLを入力してください。\n\n注意: すべてのデバイスで同じサーバーに接続する必要があります。</string>
     <string name="onboarding_storage_permission">ストレージ権限</string>
     <string name="onboarding_storage_permission_description">このアプリはファイル共有ツールです。そのため、ストレージへのアクセス許可が必要です。</string>
     <string name="onboarding_server_pairdrop_summary">(推奨)\nペアリングやインターネット上での転送機能があり、安定しています。</string>
@@ -18,6 +17,7 @@
     <string name="onboarding_server_snapdrop_summary_server_warning">警告: サーバーが不安定なことがあります</string>
     <string name="onboarding_server_custom">カスタムサーバー</string>
     <string name="onboarding_server_custom_summary">知識がある方はご自身でサーバーを立てることも可能です。</string>
+    <string name="onboarding_server_custom_add">サーバーを追加</string>
     <string name="onboarding_howto">使い方</string>
     <string name="onboarding_howto_summary">1. 同じWiFiに接続しているデバイスで%sか、このアプリを開いてください。\n\n2. 画面上に現れたご自身のデバイスを選び、送信したいファイルを選択してください。\n\n3. これで完了です！ファイルが転送されます…</string>
     <string name="onboarding_howto_troubleshoot">ヒント：デバイスを同じWiFiに接続する必要があります。VPNが有効な場合、動作しない可能性があります。</string>
@@ -33,7 +33,6 @@
     <string name="retry">再試行</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">このアプリについて</string>
-    <string name="title_activity_about">Snapdrop &amp; PairDrop for Androidについて</string>
     <string name="pref_about_title">このアプリについて</string>
     <string name="view_downloads">ダウンロードを表示</string>
     <string name="pref_category_settings">設定</string>
@@ -45,13 +44,13 @@
     <string name="version">バージョン</string>
     <string name="pref_device_name_title">デバイス名</string>
     <string name="pref_device_name_summary">カスタムデバイス名を設定する</string>
+    <string name="notifications_summary">ダウンロード完了時に通知を表示</string>
+    <string name="notifications_title">通知</string>
     <string name="keep_on_summary">(推奨) 多くのデバイスで画面の消灯時に転送が中止される問題が発生します</string>
     <string name="keep_on_title">転送時に画面を点灯したままにする</string>
     <string name="floating_text_selection_title">テキスト選択メニューに表示</string>
-    <string name="floating_text_selection_summary">他のアプリでテキストを選択すると､「Snapdropで送信」オプションが表示されます</string>
     <string name="show_connectivity_card_title">接続警告</string>
     <string name="show_connectivity_card_summary"> WiFiに接続していない場合に警告を表示する</string>
-    <string name="floating_text_selection_activity_label">Snapdropで送信</string>
     <string name="permission_not_granted">必要な権限を許可してください</string>
     <string name="permission_not_granted_fallback">必要な権限を手動で許可してください</string>
     <string name="open_settings">設定を開く</string>

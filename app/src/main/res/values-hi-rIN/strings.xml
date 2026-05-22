@@ -20,8 +20,6 @@
     <string name="keep_on_summary">(अनुशंसित) स्क्रीन बंद होने पर कई उपकरणों में स्थानांतरण बाधित होने की समस्या होती है</string>
     <string name="keep_on_title">ट्रांसफर करते समय स्क्रीन ऑन रखें।</string>
     <string name="floating_text_selection_title">फ्लोटिंग टेक्स्ट सिलेक्शन</string>
-    <string name="floating_text_selection_summary">अन्य ऐप्स में टेक्स्ट को सिलेक्ट करते समय, \"स्नैपड्रॉप के साथ भेजें\" विकल्प दिखाया जाएगा।</string>
-    <string name="floating_text_selection_activity_label">स्नैपड्रॉप के साथ भेजें</string>
     <string name="settings_theme_title">थीम</string>
     <string-array name="darkmode_entries">
         <item>सिस्टम डिफ़ॉल्ट का इस्तेमाल करें</item>

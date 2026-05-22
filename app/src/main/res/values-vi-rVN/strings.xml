@@ -22,8 +22,6 @@
     <string name="keep_on_summary">(Khuyến khích) Một số thiết bị trong lúc truyền sẽ bị ngắt nếu màn hình bị tắt</string>
     <string name="keep_on_title">Giữ màn hình bật khi đang truyền</string>
     <string name="floating_text_selection_title">Hộp thoại nổi khi bôi đen chữ</string>
-    <string name="floating_text_selection_summary">Khi bôi đen văn bản trên ứng dụng khác, lựa chọn \"Gửi bằng Snapdrop\" sẽ hiện lên</string>
-    <string name="floating_text_selection_activity_label">Gửi bằng Snapdrop</string>
     <string name="settings_theme_title">Giao diện</string>
     <string-array name="darkmode_entries">
         <item>Mặc định theo hệ thống</item>

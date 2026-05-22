@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_long">Snapdrop i PairDrop per a l\'Android</string>
+    <string name="app_name_long">PairDrop per a Android</string>
     <string name="app_name_slogan">Transfereix fitxers amb comoditat entre tots els teus dispositius.</string>
     <string name="err_no_browser">No es pot obrir el navegador</string>
     <string name="err_no_app">No hi ha cap aplicació per a obrir el fitxer</string>
@@ -11,7 +11,6 @@
     <string name="onboarding_button_finish">finalitza</string>
     <string name="onboarding_choose_server">Trieu una adreça del servidor</string>
     <string name="onboarding_choose_server_short">trieu el servidor</string>
-    <string name="onboarding_choose_server_description">Aquesta aplicació és un client optimitzat per a les aplicacions web Snapdrop i PairDrop.\nTrieu una de les següents instàncies o especifiqueu un URL personalitzat per connectar-vos.\n\nNota: Heu de triar el mateix URL en tots els dispositius.</string>
     <string name="onboarding_storage_permission">Permís d\'emmagatzematge</string>
     <string name="onboarding_storage_permission_description">Aquesta aplicació és una utilitat per compartir fitxers. Per tant, es requereix el permís d\'emmagatzematge per poder utilitzar-la.</string>
     <string name="onboarding_server_pairdrop_summary">(recomanat)\nFunció d\'emparellament, transferència per Internet i enfocat en l\'estabilitat.</string>
@@ -19,6 +18,7 @@
     <string name="onboarding_server_snapdrop_summary_server_warning">Avís: Inestabilitats del servidor</string>
     <string name="onboarding_server_custom">URL personalitzat</string>
     <string name="onboarding_server_custom_summary">Els usuaris més experts poden allotjar els seus servidors.</string>
+    <string name="onboarding_server_custom_add">Afegir un servidor</string>
     <string name="onboarding_howto">Com funciona</string>
     <string name="onboarding_howto_summary">1. Obriu aquesta aplicació o %s en qualsevol altre dispositiu de la xarxa wifi local.\n\n2. Toqueu el dispositiu i seleccioneu els fitxers que voleu enviar.\n\n3. Fet. Els fitxers s\'enviaran…</string>
     <string name="onboarding_howto_troubleshoot">Consell: Els dispositius han d\'estar connectats amb la mateixa xarxa wifi. Pot ser que no funcioni si hi ha una VPN habilitada.</string>
@@ -34,7 +34,6 @@
     <string name="retry">torna-ho a intentar</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">Quant a</string>
-    <string name="title_activity_about">Quant a Snapdrop i PairDrop per a Android</string>
     <string name="pref_about_title">Quant a aquesta aplicació</string>
     <string name="view_downloads">Mostra les baixades</string>
     <string name="pref_category_settings">Configuració</string>
@@ -46,13 +45,13 @@
     <string name="version">Versió</string>
     <string name="pref_device_name_title">Nom del dispositiu</string>
     <string name="pref_device_name_summary">Estableix un nom de dispositiu definit per l\'usuari</string>
-    <string name="keep_on_summary">(Recomanat) Molts dispositius tenen problemes amb transferiments detinguts degut a que la pantalla s\'apagui</string>
+    <string name="notifications_summary">Mostra una notificació quan s\'hagi completat la descàrrega</string>
+    <string name="notifications_title">Notificacions</string>
+    <string name="keep_on_summary">(Recomanat) Molts dispositius tenen problemes amb transferiments detinguts perquè la pantalla s\'apaga</string>
     <string name="keep_on_title">Deixa la pantalla encesa mentre es transfereix</string>
     <string name="floating_text_selection_title">Selecció del text flotant</string>
-    <string name="floating_text_selection_summary">Quan se seleccioni text en altres aplicacions, l\'opció \"Enviar amb snapdrop\" sortirà</string>
     <string name="show_connectivity_card_title">Avís de connectivitat</string>
     <string name="show_connectivity_card_summary"> Mostra un avís quan no estigueu connectat amb wifi</string>
-    <string name="floating_text_selection_activity_label">Envia amb Snapdrop</string>
     <string name="permission_not_granted">concediu el permís necessari</string>
     <string name="permission_not_granted_fallback">concediu manualment el permís necessari</string>
     <string name="open_settings">obre la configuració</string>
