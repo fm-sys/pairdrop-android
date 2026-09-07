@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_long">Snapdrop &amp; PairDrop pre Android</string>
     <string name="app_name_slogan">Bezproblémovo prenášajte súbory medzi všetkými vašimi zariadeniami.</string>
     <string name="err_no_browser">Nemožno otvoriť prehliadač</string>
     <string name="err_no_app">Nebola nájdená žiadna nainštalovaná aplikácia na otvorenie tohto súboru</string>
@@ -11,11 +10,11 @@
     <string name="onboarding_button_finish">dokončiť</string>
     <string name="onboarding_choose_server">Vyberte adresu serveru</string>
     <string name="onboarding_choose_server_short">vybrať server</string>
-    <string name="onboarding_choose_server_description">Táto aplikácia je optimalizovaný klient pre webové aplikácie Snapdrop a PairDrop.\nVyberte si jednu z nasledujúcich inštancií alebo špecifikuje vlastnú url na pripojenie.\n\nPoznámka: Musíte si vybrať rovnakú URL na všetkých zariadeniach.</string>
     <string name="onboarding_storage_permission">Povolenie prístupu k súborom</string>
     <string name="onboarding_storage_permission_description">Táto aplikácia je nástroj na zdieľanie súborov. Preto je pre použitie vyžadované povolenie prístupu k súborom.</string>
     <string name="onboarding_server_pairdrop_summary">(odporúčané)\nPárovacia funkcia, prenos cez internet a zameranie na stabilitu.</string>
     <string name="onboarding_server_snapdrop_summary">Klasický SnapDrop. Prehľadný a jednoduchý.</string>
+    <string name="onboarding_server_snapdrop_summary_server_warning">Slovak</string>
     <string name="onboarding_server_custom">Vlastná URL</string>
     <string name="onboarding_server_custom_summary">Experti môžu taktiež sprevádzkovať svoje vlastné servery.</string>
     <string name="onboarding_howto">Ako používať</string>
@@ -32,7 +31,6 @@
     <string name="retry">skúsiť znova</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">O</string>
-    <string name="title_activity_about">O Snapdrope &amp; PairDrope pre Android</string>
     <string name="pref_about_title">O tejto aplikácii</string>
     <string name="view_downloads">Zobraziť stiahnuté súbory</string>
     <string name="pref_category_settings">Nastavenia</string>
@@ -47,10 +45,8 @@
     <string name="keep_on_summary">(Odporúčané) Mnohé zariadenia majú problémy s prerušovaním prenosov, keď majú vypnutú obrazovku</string>
     <string name="keep_on_title">Nechať obrazovku zapnutú počas prenosu</string>
     <string name="floating_text_selection_title">Výber plávajúceho textu</string>
-    <string name="floating_text_selection_summary">Keď budete označovať text v iných aplikáciách, zobrazí sa možnosť \"Poslať cez Snapdrop\"</string>
     <string name="show_connectivity_card_title">Upozornení na pripojení</string>
     <string name="show_connectivity_card_summary"> Zobrazenie upozornení, ak nie ste pripojení k sieti Wi-Fi</string>
-    <string name="floating_text_selection_activity_label">Poslať cez Snapdrop</string>
     <string name="permission_not_granted">prosím udeľte potrebné povolenia</string>
     <string name="permission_not_granted_fallback">prosím udeľte potrebné povolenia manuálne</string>
     <string name="open_settings">otvoriť nastavenia</string>

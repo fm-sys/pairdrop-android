@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_long">سناب درُوب اقترن واسقط لِنِظامِ أندُروِيد</string>
-    <string name="app_name_slogan">نقل الملفات بسلاسة بين جميع أجهزتك.</string>
-    <string name="err_no_browser">لا يمكن فتح المستعرض</string>
-    <string name="err_no_app">لا يوجد تطبيق لفتح هذا المِلَفّ</string>
-    <string name="open_url">افتح الرابط</string>
+    <string name="app_name_long">بايردروب للاندرويد</string>
+    <string name="app_name_slogan">Transfer files seamlessly between all your devices.,</string>
+    <string name="err_no_browser">3لا يمكن فتح المستعرض</string>
+    <string name="err_no_app">No app installed to open this file</string>
+    <string name="open_url">Open URL</string>
     <!-- Onboarding -->
-    <string name="onboarding_button_continue">استمرار</string>
+    <string name="onboarding_button_continue">continue</string>
     <string name="onboarding_button_grant">منح الإذن</string>
     <string name="onboarding_button_finish">اكتمل</string>
     <string name="onboarding_choose_server">اختر عنوان الخادم</string>
     <string name="onboarding_choose_server_short">اختر الخادم</string>
-    <string name="onboarding_choose_server_description">هذا التطبيق هو عميل مُحسَّن لتطبيقات الويب Snaplop و PairDrop.\nاختر واحدة من الأمثلة التالية أو حدد عنوان URL مخصص للاتصال به.\n\nملاحظة: يجب عليك اختيار نفس الرابط على جميع الأجهزة.</string>
+    <string name="onboarding_choose_server_description">هذا التطبيق هو عميل مُحسَّن لتطبيقات الويب Snapdrop وPairDrop.\n\nملاحظة: يجب أن تختار نفس الرابط على جميع الأجهزة.</string>
     <string name="onboarding_storage_permission">إذن التخزين</string>
     <string name="onboarding_storage_permission_description">هذا التطبيق هو أداة مشاركة للملفات. لذلك، إذن التخزين مطلوب لاستخدامه.</string>
     <string name="onboarding_server_pairdrop_summary">(موصى به)\nميزة الاقتران ، نقل الإنترنت والتركيز على الاستقرار.</string>
@@ -35,7 +35,7 @@
     <string name="retry">إعادة المحاولة</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">حول</string>
-    <string name="title_activity_about">حَول سناب درُوب &amp; اقترن واسقط لِنِظامِ أندُروِيد</string>
+    <string name="title_activity_about">حول PairDrop للأندرويد</string>
     <string name="pref_about_title">حول التطبيق</string>
     <string name="view_downloads">عرض التنزيلات</string>
     <string name="pref_category_settings">الإعدادات</string>
@@ -52,10 +52,10 @@
     <string name="keep_on_summary">(مستحسن) العديد من الأجهزة تواجه مشاكل مع انقطاع عمليات النقل عند ايقاف تشغيل الشاشة</string>
     <string name="keep_on_title">إبقاء الشاشة قيد التشغيل أثناء النقل</string>
     <string name="floating_text_selection_title">اختيار النص العائم</string>
-    <string name="floating_text_selection_summary">عند تحديد النص في تطبيقات أخرى، سيتم عرض خيار \"إرسال مع Snapdrop\"</string>
-    <string name="show_connectivity_card_title">تحذير الاتصال</string>
+    <string name="floating_text_selection_summary">عند تحديد النص في تطبيقات أخرى، سيتم عرض خيار \"إرسال مع PairDrop\"</string>
+    <string name="show_connectivity_card_title">Connectivity warning</string>
     <string name="show_connectivity_card_summary"> إظهار تحذير عندما لا تكون متصلاً بشبكة Wi-Fi</string>
-    <string name="floating_text_selection_activity_label">مشاركة مع سناب درُوب</string>
+    <string name="floating_text_selection_activity_label">ارسال مع PairDrop</string>
     <string name="permission_not_granted">الرجاء منح الأذونات الضرورية</string>
     <string name="permission_not_granted_fallback">الرجاء منح الأذونات الضرورية</string>
     <string name="open_settings">فتح الإعدادات</string>

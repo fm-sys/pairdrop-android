@@ -22,8 +22,6 @@
     <string name="keep_on_summary">(Ajánlott) Sok eszköznél megszakad az átvitel, ha a kijelző kikapcsol</string>
     <string name="keep_on_title">A képernyő bekapcsolva tartása átvitel közben</string>
     <string name="floating_text_selection_title">Lebegő szöveg kijelölése</string>
-    <string name="floating_text_selection_summary">Ha más alkalmazásokban szöveget jelöl ki, megjelenik a „Küldés snapdroppal” lehetőség</string>
-    <string name="floating_text_selection_activity_label">Küldés snapdroppal</string>
     <string name="settings_theme_title">Téma</string>
     <string-array name="darkmode_entries">
         <item>A rendszer beállításainak használata</item>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_long">Snapdrop &amp; Pairdrop para Android</string>
+    <string name="app_name_long">PairDrop para Android</string>
     <string name="app_name_slogan">Transfiere archivos sin problemas entre todos tus dispositivos.</string>
     <string name="err_no_browser">No se puede abrir el navegador</string>
     <string name="err_no_app">No hay ninguna aplicación instalada para abrir este archivo</string>
     <string name="open_url">Abrir URL</string>
     <!-- Onboarding -->
     <string name="onboarding_button_continue">continuar</string>
-    <string name="onboarding_button_grant">otorgar permiso</string>
+    <string name="onboarding_button_grant">conceder permiso</string>
     <string name="onboarding_button_finish">terminar</string>
     <string name="onboarding_choose_server">Elige un servidor</string>
     <string name="onboarding_choose_server_short">elegir servidor</string>
-    <string name="onboarding_choose_server_description">Esta aplicación es un cliente optimizado para las aplicaciones web Snapdrop y PairDrop.\nElige una de las siguientes instancias o especifica una url personalizada a la que conectarse.\n\nNota: Tienes que elegir la misma URL en todos los dispositivos.</string>
+    <string name="onboarding_choose_server_description">Esta aplicación es un cliente optimizado para las aplicaciones web Snapdrop y Pairdrop. \n\n Nota: Debes escoger el mismo URL en todos los dispositivos.</string>
     <string name="onboarding_storage_permission">Permiso de almacenamiento</string>
     <string name="onboarding_storage_permission_description">Esta aplicación es una utilidad para compartir archivos. Por lo tanto, el permiso de almacenamiento es necesario para usarla.</string>
     <string name="onboarding_server_pairdrop_summary">(recomendado)\nFunción de emparejamiento, transferencia por Internet y enfoque en estabilidad.</string>
@@ -19,6 +19,7 @@
     <string name="onboarding_server_snapdrop_summary_server_warning">Advertencia: Inestabilidades del servidor</string>
     <string name="onboarding_server_custom">URL personalizada</string>
     <string name="onboarding_server_custom_summary">Los expertos también pueden alojar sus propios servidores.</string>
+    <string name="onboarding_server_custom_add">Añadir servidor</string>
     <string name="onboarding_howto">Cómo usar</string>
     <string name="onboarding_howto_summary">1. Abre esta aplicación o %s en cualquier otro dispositivo en tu red WiFi local.\n\n2. Toca el dispositivo y selecciona los archivos que quieres enviar.\n\n3. ¡Listo! Los archivos se enviarán…</string>
     <string name="onboarding_howto_troubleshoot">Sugerencia: Los dispositivos necesitan estar conectados a la misma red WiFi. Puede que no funcione si una VPN está habilitada.</string>
@@ -34,7 +35,7 @@
     <string name="retry">reintentar</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">Acerca de</string>
-    <string name="title_activity_about">Acerca de Snapdrop &amp; PairDrop para Android</string>
+    <string name="title_activity_about">Acerca de PairDrop para Android</string>
     <string name="pref_about_title">Acerca de esta aplicación</string>
     <string name="view_downloads">Ver descargas</string>
     <string name="pref_category_settings">Ajustes</string>
@@ -46,13 +47,15 @@
     <string name="version">Versión</string>
     <string name="pref_device_name_title">Nombre del dispositivo</string>
     <string name="pref_device_name_summary">Establece un nombre de dispositivo definido por el usuario</string>
+    <string name="notifications_summary">Mostrar notificación cuando se complete la descarga</string>
+    <string name="notifications_title">Notificaciones</string>
     <string name="keep_on_summary">(Recomendado) Muchos dispositivos tienen problemas con las interrupciones de transferencias cuando la pantalla se apaga</string>
     <string name="keep_on_title">Mantener la pantalla encendida mientras se transfiere</string>
     <string name="floating_text_selection_title">Selección de texto flotante</string>
-    <string name="floating_text_selection_summary">Al seleccionar texto en otras aplicaciones, se mostrará una opción \"Enviar con Snapdrop\"</string>
-    <string name="show_connectivity_card_title">Advertencia de conexión</string>
+    <string name="floating_text_selection_summary">Cuando selecciones texto en otras apps, se mostrará la opción de \"Compartir con PairDrop\"</string>
+    <string name="show_connectivity_card_title">Connectivity warning</string>
     <string name="show_connectivity_card_summary"> Mostrar una advertencia cuando no esté conectado a una red WiFi</string>
-    <string name="floating_text_selection_activity_label">Enviar con Snapdrop</string>
+    <string name="floating_text_selection_activity_label">Compartir con PaiDrop</string>
     <string name="permission_not_granted">por favor conceda el permiso necesario</string>
     <string name="permission_not_granted_fallback">por favor conceda el permiso necesario manualmente</string>
     <string name="open_settings">abrir ajustes</string>
