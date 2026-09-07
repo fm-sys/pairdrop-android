@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_long">Sobre Snapdrop &amp; PairDrop para Android</string>
+    <string name="app_name_long">PairDrop para Android</string>
     <string name="app_name_slogan">Transfira arquivos perfeitamente entre todos os seus dispositivos.</string>
     <string name="err_no_browser">Não foi possível abrir o navegador</string>
     <string name="err_no_app">Nenhum app instalado que pode abrir este arquivo</string>
@@ -11,7 +11,7 @@
     <string name="onboarding_button_finish">terminar</string>
     <string name="onboarding_choose_server">Escolha o endereço do servidor</string>
     <string name="onboarding_choose_server_short">escolher servidor</string>
-    <string name="onboarding_choose_server_description">Este app é um cliente otimizado para o Snapdrop e o PairDrop.\nEscolha uma das seguintes instâncias ou especifique uma url personalizada para se conectar.\n\nNota: Você tem que escolher a mesma URL em todos os dispositivos.</string>
+    <string name="onboarding_choose_server_description">This app is an optimized client for the web apps Snapdrop and PairDrop.\n\nNote: You have to choose the same URL on all devices.l</string>
     <string name="onboarding_storage_permission">Permissão de armazenamento</string>
     <string name="onboarding_storage_permission_description">Este aplicativo é usado para compartilhamento de arquivos. Portanto, a permissão de armazenamento é necessária para usá-lo.</string>
     <string name="onboarding_server_pairdrop_summary">(recomendado)\nrecurso de emparelhamento, transferência de internet e foco na estabilidade.</string>
@@ -34,7 +34,6 @@
     <string name="retry">repetir</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">Informações sobre o \'app\'</string>
-    <string name="title_activity_about">Sobre Snapdrop &amp; PairDrop para Android</string>
     <string name="pref_about_title">Sobre este \'app\'</string>
     <string name="view_downloads">Ver downloads</string>
     <string name="pref_category_settings">Configurações</string>
@@ -49,10 +48,9 @@
     <string name="keep_on_summary">(Recomendado) Muitos dispositivos têm problemas com transferências interrompidas quando a tela for desligada</string>
     <string name="keep_on_title">Manter a tela ligada durante a transferência</string>
     <string name="floating_text_selection_title">Seleção de texto flutuante</string>
-    <string name="floating_text_selection_summary">Ao selecionar texto em outros apps, será exibida uma opção \"Enviar via Snapdrop\"</string>
     <string name="show_connectivity_card_title">Aviso de conectividade</string>
     <string name="show_connectivity_card_summary"> Mostra um aviso quando você não está conectado a uma rede Wi-Fi</string>
-    <string name="floating_text_selection_activity_label">Enviar via Snapdrop</string>
+    <string name="floating_text_selection_activity_label">Enviar via PairDrop</string>
     <string name="permission_not_granted">Por favor, conceda as permissões necessárias</string>
     <string name="permission_not_granted_fallback">por favor, conceda a permissão necessária manualmente</string>
     <string name="open_settings">Abrir configurações</string>
