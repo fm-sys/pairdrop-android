@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_long">Snapdrop &amp; PairDrop 安卓版</string>
+    <string name="app_name_long">PairDrop 安卓版</string>
     <string name="app_name_slogan">在您所有设备间无缝传输文件。</string>
     <string name="err_no_browser">无法打开浏览器</string>
     <string name="err_no_app">未找到用于打开此文件的应用</string>
@@ -11,14 +11,17 @@
     <string name="onboarding_button_finish">完成</string>
     <string name="onboarding_choose_server">选择一个服务器地址</string>
     <string name="onboarding_choose_server_short">选择服务器</string>
-    <string name="onboarding_choose_server_description">这个应用程序是适用于 Snapdrop 和 PairDrop 的 Web 应用程序的优化客户端。\n选择以下实例之一或指定要连接的自定义URL。\n\n注意：您必须在所有设备上选择相同的 URL。</string>
+    <string name="onboarding_choose_server_description">这个应用程序是适用于 SnapDrop 和 PairDrop 的 Web 应用程序的优化客户端。\n\n注意：您必须在所有设备上选择相同的 URL。</string>
     <string name="onboarding_storage_permission">存储权限</string>
     <string name="onboarding_storage_permission_description">此应用是一个共享文件的工具。因此，需要存储权限才能使用。</string>
     <string name="onboarding_server_pairdrop_summary">(推荐)\n配对功能、互联网传输并侧重于稳定性。</string>
     <string name="onboarding_server_snapdrop_summary">经典的 SnapDrop。简洁而干净。</string>
+    <string name="onboarding_server_snapdrop_summary_server_warning">警告：服务器不稳定</string>
     <string name="onboarding_server_custom">自定义URL</string>
     <string name="onboarding_server_custom_summary">专家们也可以搭建他们自己的服务器。</string>
+    <string name="onboarding_server_custom_add">添加服务器</string>
     <string name="onboarding_howto">如何使用</string>
+    <string name="onboarding_howto_summary">1. 在您本地 WiFi 网络中的任意设备上打开此应用或者 %s 。\n\n2. 轻按您想要与之共享文件的设备。\n\n3. 完成！文件将立即被发送…</string>
     <string name="onboarding_howto_troubleshoot">提示：设备需要连接到同一个WiFi网络。如果启用了VPN，它可能无法工作。</string>
     <!-- Download -->
     <string name="download_save_pending">存储文件。请稍等…</string>
@@ -32,7 +35,7 @@
     <string name="retry">重试</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">关于</string>
-    <string name="title_activity_about">关于 Snapdrop &amp; PairDrop 安卓版</string>
+    <string name="title_activity_about">关于PairDrop安卓版</string>
     <string name="pref_about_title">关于此应用</string>
     <string name="view_downloads">查看下载项目</string>
     <string name="pref_category_settings">设置</string>
@@ -44,13 +47,15 @@
     <string name="version">版本</string>
     <string name="pref_device_name_title">设备名称</string>
     <string name="pref_device_name_summary">自定义设备名称</string>
+    <string name="notifications_summary">下载完成时显示通知</string>
+    <string name="notifications_title">通知</string>
     <string name="keep_on_summary">(推荐) 若遇到熄屏时传输中断的问题，请启用该项</string>
     <string name="keep_on_title">传输时保持屏幕开启</string>
     <string name="floating_text_selection_title">浮动文字选择</string>
-    <string name="floating_text_selection_summary">使用其他APP选中文本时，显示“使用Snapdrop发送”选项</string>
+    <string name="floating_text_selection_summary">使用其他APP选中文本时，显示“使用PairDrop发送”选项</string>
     <string name="show_connectivity_card_title">连接警告</string>
     <string name="show_connectivity_card_summary"> 当您没有连接到 WiFi 网络时显示警告</string>
-    <string name="floating_text_selection_activity_label">使用Snapdrop发送</string>
+    <string name="floating_text_selection_activity_label">使用PairDrop 发送</string>
     <string name="permission_not_granted">请授予必要的权限</string>
     <string name="permission_not_granted_fallback">请手动授予必要的权限</string>
     <string name="open_settings">打开设定</string>
