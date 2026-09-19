@@ -1,35 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="err_no_browser">אי אפשר לפתוח דפדפן</string>
+    <string name="app_name_slogan">Transfer files seamlessly between all your devices.</string>
+    <string name="err_no_browser">Can\'t open browser</string>
     <string name="err_no_app">לא נמצא יישום לפתיחת קובץ זה</string>
     <string name="open_url">פתח קישור אינטרנט</string>
     <!-- Onboarding -->
+    <string name="onboarding_button_continue"></string>
+    <string name="onboarding_button_grant"></string>
+    <string name="onboarding_button_finish">finish</string>
+    <string name="onboarding_howto_summary">…</string>
     <!-- Download -->
     <string name="download_save_pending">מאחסן את הקובץ. בבקשה הראה קצת סבלנות...</string>
     <string name="download_successful">ההורדה הושלמה</string>
-    <string name="notification_channel_name">ההורדה הושלמה</string>
+    <string name="notification_channel_name">Download completed</string>
     <!-- Action Buttons -->
-    <string name="open">פתח</string>
+    <string name="open">open</string>
     <string name="reset">אפס</string>
     <string name="copy">העתק</string>
     <!-- Settings / About -->
+    <string name="pref_about_title"></string>
     <string name="pref_category_settings">הגדרות</string>
     <string name="logs">יומני איתור באגים</string>
     <string name="components_summary">לחץ להצגה</string>
+    <string name="support_us"></string>
+    <string name="support_us_summary">Lo</string>
+    <string name="read_more"></string>
     <string name="version">גירסה</string>
     <string name="pref_device_name_title">שם המכשיר</string>
     <string name="pref_device_name_summary">בחר שם משתמש למכשירך</string>
     <string name="keep_on_summary">(מומלץ) להמון מכשירים יש בעיות שהעברת הקבצים נקטעת כשמכבים את מסך המכשיר</string>
     <string name="keep_on_title">השאר מסך דולק במשך העברת הקבצים</string>
     <string name="floating_text_selection_title">בחירת טקסט צף</string>
-    <string name="floating_text_selection_summary">כשתבחר שורת טקסט ביישום אחר, יפתח אפשרות של \"שתף עם סנאפדרופ\"</string>
-    <string name="floating_text_selection_activity_label">שתף עם סנאפדרופ</string>
+    <string name="open_settings"></string>
+    <string name="retain_location_metadata_title"></string>
+    <string name="retain_location_metadata_summary_off"></string>
+    <string name="retain_location_metadata_summary_on">The app has full file access currently</string>
     <string name="settings_theme_title">ערכת נושא</string>
     <string-array name="darkmode_entries">
         <item>ברירת מחדל של המערכת</item>
         <item>בהיר</item>
         <item>כהה</item>
     </string-array>
+    <string name="baseurl_title"></string>
     <string name="save_location">שמור מיקום</string>
     <!-- File sharing -->
     <string name="intent_file">קובץ מצורף נבחר לשיתוף</string>
@@ -37,6 +49,7 @@
     <string name="intent_content">תוכן נבחר לשיתוף</string>
     <string name="error_filechooser">אין אפשרות לפתוח את בוחר הקבצים</string>
     <string name="error_network">אנא ודא שאתה מחובר לרשת WiFi</string>
+    <string name="error_network_no_wifi">.</string>
     <string name="ignore_error_network">תן לי להיכנס בכל מקרה</string>
     <string name="error_not_reachable_title">אופס, סליחה!</string>
     <!-- Website Localization -->
