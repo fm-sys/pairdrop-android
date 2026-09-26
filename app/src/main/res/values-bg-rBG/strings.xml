@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name_slogan">.</string>
     <string name="err_no_browser">Не мога да отворя браузъра</string>
     <string name="err_no_app">Няма инсталирано приложение, което да отвори този файл</string>
     <string name="open_url">Отвори линк</string>
     <!-- Onboarding -->
+    <string name="onboarding_button_continue"></string>
     <!-- Download -->
     <string name="download_save_pending">Запазвам файла. Моля, имай малко търпение…</string>
     <string name="download_successful">Изтеглянето бе успешно</string>
@@ -26,8 +28,6 @@
     <string name="keep_on_summary">(Препоръчително) Много устройства имат проблем с прекъсване при прехвърляне на файлове щом екрана се изключи</string>
     <string name="keep_on_title">Дръж екрана включен докато се прехвърлят файлове</string>
     <string name="floating_text_selection_title">Избор на плаващ текст</string>
-    <string name="floating_text_selection_summary">Когато избираш текст в друго приложение, ще се покаже опция \"Изпрати чрез Snapdrop\"</string>
-    <string name="floating_text_selection_activity_label">Изпрати чрез Snapdrop</string>
     <string name="settings_theme_title">Тема</string>
     <string-array name="darkmode_entries">
         <item>По подразбиране</item>
@@ -50,5 +50,5 @@
     <string name="website_file_download">Запази</string>
     <string name="website_footer_discovery">Видим си за всички в тази мрежа</string>
     <string name="website_footer_known_as">Видим си като %s</string>
-    <string name="website_about_subheading">Най-лесният начин да изпращаш файлове между устройства</string>
+    <string name="website_about_subheading">The easiest way to transfer files across devices</string>
 </resources>
