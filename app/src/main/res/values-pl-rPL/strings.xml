@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_long">Snapdrop &amp; PairDrop dla Androida</string>
     <string name="app_name_slogan">Przesyłaj pliki bezproblemowo pomiędzy wszystkimi urządzeniami.</string>
     <string name="err_no_browser">Nie można otworzyć przeglądarki</string>
     <string name="err_no_app">Nie znaleziono aplikacji do otwarcia tego pliku</string>
@@ -11,7 +10,6 @@
     <string name="onboarding_button_finish">zakończ</string>
     <string name="onboarding_choose_server">Wybierz adres serwera</string>
     <string name="onboarding_choose_server_short">wybierz serwer</string>
-    <string name="onboarding_choose_server_description">Ta aplikacja jest zoptymalizowanym klientem aplikacji webowych Snapdrop i PairDrop.\nWybierz jedną z następujących instancji lub określ niestandardowy adres url do połączenia\n\nUwaga: musisz wybrać ten sam URL na wszystkich urządzeniach.</string>
     <string name="onboarding_storage_permission">Uprawnienia do przechowywania danych</string>
     <string name="onboarding_storage_permission_description">Ta aplikacja jest narzędziem udostępniania plików. W związku z tym wymagane jest pozwolenie na przechowywanie plików, aby z niej korzystać.</string>
     <string name="onboarding_server_pairdrop_summary">(zalecane)\nFunkcja parowania, transfer Internetu i koncentracja na stabilności.</string>
@@ -19,6 +17,7 @@
     <string name="onboarding_server_snapdrop_summary_server_warning">Ostrzeżenie: Niestabilność serwera</string>
     <string name="onboarding_server_custom">Niestandardowy URL</string>
     <string name="onboarding_server_custom_summary">Eksperci mogą również hostować swoje własne serwery.</string>
+    <string name="onboarding_server_custom_add">Dodaj serwer</string>
     <string name="onboarding_howto">Jak używać</string>
     <string name="onboarding_howto_summary">1. Otwórz tę aplikację lub %s na innym urządzeniu w lokalnej sieci WiFi.\n\n2. Dotknij urządzenia, z którym chcesz udostępnić plik(i). \n\n3 Gotowe! Pliki zostaną wysłane…</string>
     <string name="onboarding_howto_troubleshoot">Wskazówka: Urządzenia muszą być podłączone do tej samej sieci WiFi. Może to nie działać, jeśli VPN jest włączony.</string>
@@ -34,7 +33,6 @@
     <string name="retry">spróbuj ponownie</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">O programie</string>
-    <string name="title_activity_about">O Snapdrop &amp; PairDrop dla Androida</string>
     <string name="pref_about_title">O tej aplikacji</string>
     <string name="view_downloads">Zobacz pobrane</string>
     <string name="pref_category_settings">Ustawienia</string>
@@ -46,13 +44,13 @@
     <string name="version">Wersja</string>
     <string name="pref_device_name_title">Nazwa urządzenia</string>
     <string name="pref_device_name_summary">Ustaw nazwę urządzenia zdefiniowaną przez użytkownika</string>
+    <string name="notifications_summary">Pokaż powiadomienie po zakończeniu pobierania</string>
+    <string name="notifications_title">Powiadomienia</string>
     <string name="keep_on_summary">(Zalecane) Wiele urządzeń ma problemy z przerywaniem transferu po wyłączeniu ekranu</string>
     <string name="keep_on_title">Pozostaw włączony ekran podczas przesyłania</string>
     <string name="floating_text_selection_title">Wybór pływającego tekstu</string>
-    <string name="floating_text_selection_summary">Podczas wybierania tekstu w innych aplikacjach zostanie wyświetlona opcja \"Wyślij za pomocą Snapdrop\"</string>
     <string name="show_connectivity_card_title">Ostrzeżenie o połączeniu</string>
     <string name="show_connectivity_card_summary"> Pokaż ostrzeżenie, gdy nie jesteś połączony z siecią WiFi</string>
-    <string name="floating_text_selection_activity_label">Wyślij przez Snapdrop</string>
     <string name="permission_not_granted">Proszę udzielić odpowiednich uprawnień</string>
     <string name="permission_not_granted_fallback">udziel niezbędnych uprawnień ręcznie</string>
     <string name="open_settings">otwórz ustawienia</string>
