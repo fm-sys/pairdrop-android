@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_long">Snapdrop &amp; PairDrop untuk Android</string>
     <string name="app_name_slogan">Mentransfer file dengan mudah antarsemua perangkat Anda.</string>
-    <string name="err_no_browser">Tidak bisa membuka browser</string>
+    <string name="err_no_browser">Tak dapat membuka browser</string>
     <string name="err_no_app">Tidak ada aplikasi yang diinstal untuk membuka file ini</string>
     <string name="open_url">Buka URL</string>
     <!-- Onboarding -->
@@ -11,14 +10,14 @@
     <string name="onboarding_button_finish">selesai</string>
     <string name="onboarding_choose_server">Pilih alamat server</string>
     <string name="onboarding_choose_server_short">pilih server</string>
-    <string name="onboarding_choose_server_description">Aplikasi ini adalah klien yang dioptimalkan untuk aplikasi web Snapdrop dan PairDrop.\nPilih salah satu dari beberapa opsi berikut atau tentukan url khusus agar dapat tersambung.\n\nCatatan: Anda harus menggunakan URL yang sama di semua perangkat.</string>
     <string name="onboarding_storage_permission">Izin penyimpanan</string>
-    <string name="onboarding_storage_permission_description">Aplikasi ini adalah aplikasi berbagi file. Oleh karena itu, izin penyimpanan diperlukan untuk bisa digunakan.</string>
+    <string name="onboarding_storage_permission_description">Aplikasi ini adalah alat berbagi berkas. Maka dari itu, perlu izin penyimpanan untuk digunakan.</string>
     <string name="onboarding_server_pairdrop_summary">(disarankan)\nFitur pairing, transfer internet dan fokus pada kestabilan.</string>
     <string name="onboarding_server_snapdrop_summary">Snapdrop klasik. Murni dan sederhana.</string>
     <string name="onboarding_server_snapdrop_summary_server_warning">Peringatan: Ketidakstabilan server</string>
     <string name="onboarding_server_custom">URL khusus</string>
     <string name="onboarding_server_custom_summary">Ekspert dapat meng-host server miliknya sendiri.</string>
+    <string name="onboarding_server_custom_add">Tambah server</string>
     <string name="onboarding_howto">Cara menggunakan</string>
     <string name="onboarding_howto_summary">1. Buka aplikasi ini atau %s pada perangkat lain di jaringan WiFi lokal Anda.\n\n2. Ketuk perangkat dan pilih file yang ingin Anda kirim.\n\n3. Selesai! File akan dikirim…</string>
     <string name="onboarding_howto_troubleshoot">Panduan: Perangkat harus terhubung pada jaringan WiFi yang sama. Ini mungkin tidak akan berfungsi jika VPN diaktifkan.</string>
@@ -34,7 +33,6 @@
     <string name="retry">coba lagi</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">Tentang</string>
-    <string name="title_activity_about">Tentang Snapdrop &amp; PairDrop untuk Android</string>
     <string name="pref_about_title">Tentang aplikasi ini</string>
     <string name="view_downloads">Lihat unduhan</string>
     <string name="pref_category_settings">Pengaturan</string>
@@ -46,13 +44,13 @@
     <string name="version">Versi</string>
     <string name="pref_device_name_title">Nama perangkat</string>
     <string name="pref_device_name_summary">Tetapkan nama perangkat sesuai keinginan anda</string>
-    <string name="keep_on_summary">(Disarankan) Kebanyakan perangkat mengalami masalah transfer terputus ketika layar dalam keadaan mati</string>
+    <string name="notifications_summary">Tampilkan pemberitahuan saat selesai unduh</string>
+    <string name="notifications_title">Pemberitahuan</string>
+    <string name="keep_on_summary">(Disarankan) Kebanyakan perangkat terdapat masalah transfer terputus saat layar dalam keadaan mati</string>
     <string name="keep_on_title">Tetap aktifkan layar saat mentransfer</string>
     <string name="floating_text_selection_title">Pilihan teks mengambang</string>
-    <string name="floating_text_selection_summary">Saat memilih teks di aplikasi lain, opsi \"Kirim dengan Snapdrop\" akan ditampilkan</string>
     <string name="show_connectivity_card_title">Peringatan konektivitas</string>
     <string name="show_connectivity_card_summary"> Menampilkan peringatan saat Anda tidak tersambung dengan jaringan WiFi</string>
-    <string name="floating_text_selection_activity_label">Kirim dengan Snapdrop</string>
     <string name="permission_not_granted">mohon berikan izin yang diperlukan</string>
     <string name="permission_not_granted_fallback">mohon berikan izin yang diperlukan secara manual</string>
     <string name="open_settings">buka setelan</string>
