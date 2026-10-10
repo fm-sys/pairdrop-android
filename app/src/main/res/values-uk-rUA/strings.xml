@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_long">Snapdrop &amp; PairDrop для Android</string>
     <string name="app_name_slogan">Легко передавайте файли між усіма своїми пристроями.</string>
     <string name="err_no_browser">Не вдається відкрити браузер</string>
     <string name="err_no_app">Немає встановлених програм, щоб відкрити цей файл</string>
@@ -11,7 +10,6 @@
     <string name="onboarding_button_finish">завершити</string>
     <string name="onboarding_choose_server">Виберіть адресу сервера</string>
     <string name="onboarding_choose_server_short">вибрати сервер</string>
-    <string name="onboarding_choose_server_description">Цей застосунок є оптимізованим клієнтом для вебзастосунків Snapdrop і PairDrop.\nВиберіть один із наведених нижче екземплярів або вкажіть спеціальну URL-адресу для підключення.\n\nПримітка: Вам потрібно вибрати однакову URL-адресу на всіх пристроях.</string>
     <string name="onboarding_storage_permission">Дозвіл на зберігання</string>
     <string name="onboarding_storage_permission_description">Цей застосунок є засобом для обміну файлами. Тому для його використання потрібен дозвіл на зберігання.</string>
     <string name="onboarding_server_pairdrop_summary">(рекомендовано)\nФункція створення пари, передавання через інтернет та зосередженість на стабільності.</string>
@@ -35,7 +33,6 @@
     <string name="retry">повторити</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">Про</string>
-    <string name="title_activity_about">Про Snapdrop &amp; PairDrop для Android</string>
     <string name="pref_about_title">Про цю програму</string>
     <string name="view_downloads">Переглянути завантаження</string>
     <string name="pref_category_settings">Налаштування</string>
@@ -52,10 +49,8 @@
     <string name="keep_on_summary">(Рекомендується) На багатьох пристроях спостерігаються проблеми з перериванням передачі при вимкненому екрані</string>
     <string name="keep_on_title">Не вимикати екран під час передачі</string>
     <string name="floating_text_selection_title">Поділитись виділеним текстом</string>
-    <string name="floating_text_selection_summary">При виборі тексту в інших програмах буде запропоновано опцію \"Надіслати за допомогою Snapdrop\"</string>
     <string name="show_connectivity_card_title">Попередження про підключення</string>
     <string name="show_connectivity_card_summary"> Показувати попередження, коли ви не підключені до мережі WiFi</string>
-    <string name="floating_text_selection_activity_label">Надіслати за допомогою Snapdrop</string>
     <string name="permission_not_granted">будь ласка, надайте необхідний дозвіл</string>
     <string name="permission_not_granted_fallback">будь ласка, надайте необхідний дозвіл вручну</string>
     <string name="open_settings">відкрити налаштування</string>

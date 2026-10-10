@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_long">Snapdrop &amp; PairDrop für Android</string>
     <string name="app_name_slogan">Übertrage Dateien nahtlos zwischen all deinen Geräten.</string>
     <string name="err_no_browser">Browser kann nicht geöffnet werden</string>
     <string name="err_no_app">Keine App zum Öffnen dieser Datei gefunden</string>
@@ -11,7 +10,6 @@
     <string name="onboarding_button_finish">fertigstellen</string>
     <string name="onboarding_choose_server">Serveradresse wählen</string>
     <string name="onboarding_choose_server_short">Server wählen</string>
-    <string name="onboarding_choose_server_description">Diese App ist ein optimierter Client für die Webanwendungen Snapdrop und PairDrop.\nWählen Sie eine der folgenden Instanzen oder geben Sie eine benutzerdefinierte URL an, mit der Sie sich verbinden möchten.\n\nHinweis: Sie müssen auf allen Geräten die gleiche URL wählen.</string>
     <string name="onboarding_storage_permission">Speicherberechtigung</string>
     <string name="onboarding_storage_permission_description">Diese App ist ein Datei-Freigabe-Programm. Daher ist die Speicher-Berechtigung erforderlich, um funktionieren zu können.</string>
     <string name="onboarding_server_pairdrop_summary">(empfohlen)\nKopplungsfunktion, Internet-Übertragung und Fokus auf Stabilität.</string>
@@ -35,7 +33,6 @@
     <string name="retry">Erneut versuchen</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">Über</string>
-    <string name="title_activity_about">Über Snapdrop &amp; PairDrop für Android</string>
     <string name="pref_about_title">Über diese App</string>
     <string name="view_downloads">Downloads anzeigen</string>
     <string name="pref_category_settings">Einstellungen</string>
@@ -52,10 +49,8 @@
     <string name="keep_on_summary">(Empfohlen) Viele Geräte haben Probleme mit Übertragungen, wenn der Bildschirm ausgeschaltet wird</string>
     <string name="keep_on_title">Bildschirm während der Übertragung angeschaltet lassen</string>
     <string name="floating_text_selection_title">Schwebende Textauswahl</string>
-    <string name="floating_text_selection_summary">Bei der Auswahl von Text in anderen Apps wird die Option \"Mit Snapdrop senden\" angezeigt</string>
     <string name="show_connectivity_card_title">Verbindungswarnung</string>
     <string name="show_connectivity_card_summary"> Warnung anzeigen, wenn nicht mit einem WLAN-Netzwerk verbunden</string>
-    <string name="floating_text_selection_activity_label">Mit Snapdrop senden</string>
     <string name="permission_not_granted">Bitte erteilen Sie die notwendige Berechtigung</string>
     <string name="permission_not_granted_fallback">Bitte erteilen Sie die notwendige Berechtigung manuell</string>
     <string name="open_settings">Einstellungen öffnen</string>
