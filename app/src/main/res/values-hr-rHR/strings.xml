@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name_slogan">Transfer files seamlessly between all your devices.</string>
     <string name="err_no_browser">Preglednik nedostupan</string>
     <string name="err_no_app">Nema aplikacije za otvaranje datoteke ovog tipa</string>
     <string name="open_url">Otvori URL adresu</string>
     <!-- Onboarding -->
+    <string name="onboarding_button_continue"></string>
+    <string name="onboarding_button_grant"></string>
+    <string name="onboarding_button_finish"></string>
+    <string name="onboarding_choose_server"></string>
     <!-- Download -->
     <string name="download_save_pending">Spremanje datoteke. Pričekajte trenutak…</string>
     <string name="download_successful">Preuzimanje je uspješno</string>
