@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_long">Snapdrop &amp; PairDrop για Android</string>
+    <string name="app_name_long">PairDrop για Android</string>
     <string name="app_name_slogan">Μεταφέρετε αρχεία με αξιοπιστία μεταξύ όλων των συσκευών σας.</string>
     <string name="err_no_browser">Αδυναμία ανοίγματος του προγράμματος περιήγησης</string>
     <string name="err_no_app">Δε βρέθηκε εφαρμογή για το άνοιγμα αυτού του αρχείου</string>
@@ -11,7 +11,7 @@
     <string name="onboarding_button_finish">ολοκλήρωση</string>
     <string name="onboarding_choose_server">Επιλέξτε διεύθυνση διακομιστή</string>
     <string name="onboarding_choose_server_short">επιλέξτε διακομιστή</string>
-    <string name="onboarding_choose_server_description">Αυτή η εφαρμογή είναι ένας βελτιστοποιημένος client για τις web εφαρμογές Snapdrop και PairDrop.\nΕπιλέξτε μία από τις ακόλουθες επιλογές ή καθορίστε μια προσαρμοσμένη διεύθυνση URL για να συνδεθίιτε.\n\nΣημείωση: Πρέπει να επιλέξετε το ίδιο URL σε όλες τις συσκευές.</string>
+    <string name="onboarding_choose_server_description">Αυτή η εφαρμογή είναι μία βελτιστοποιημένη έκδοση των ιστοσελίδων Snapdrop και PairDrop.\n\nΣημείωση: Πρέπει να επιλέξετε το ίδιο URL σε όλες τις συσκευές.</string>
     <string name="onboarding_storage_permission">Άδεια αποθήκευσης</string>
     <string name="onboarding_storage_permission_description">Αυτή η εφαρμογή είναι ένα πρόγραμμα κοινής χρήσης αρχείων. Ως εκ τούτου, απαιτείται άδεια αποθήκευσης για να μπορεί να χρησιμοποιηθεί.</string>
     <string name="onboarding_server_pairdrop_summary">(συνιστάται)\nΛειτουργία σύζευξης, μεταφορά μέσω διαδικτύου με στόχο τη σταθερότητα.</string>
@@ -35,7 +35,7 @@
     <string name="retry">δοκιμάστε ξανά</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">Σχετικά με την εφαρμογή</string>
-    <string name="title_activity_about">Σχετικά με το Snapdrop &amp; PairDrop για το Android</string>
+    <string name="title_activity_about">Σχετικά με το PairDrop για Android</string>
     <string name="pref_about_title">Σχετικά με την εφαρμογή</string>
     <string name="view_downloads">Προβολή λήψεων</string>
     <string name="pref_category_settings">Ρυθμίσεις</string>
@@ -52,10 +52,10 @@
     <string name="keep_on_summary">(Προτείνεται) Πολλές συσκευές αντιμετωπίζουν προβλήματα με μεταφορές αρχείων οπού διακόπτονται διότι η οθόνη απενεργοποιείται</string>
     <string name="keep_on_title">Διατηρήστε την οθόνη ενεργή κατά τη μεταφορά</string>
     <string name="floating_text_selection_title">Επιλογή Floating text</string>
-    <string name="floating_text_selection_summary">Κατά την επιλογή κειμένου σε άλλες εφαρμογές, θα εμφανιστεί η επιλογή \"Αποστολή με Snapdrop\"</string>
+    <string name="floating_text_selection_summary">Όταν επιλέγετε κείμενο σε άλλες εφαρμογές, θα εμφανίζεται μια επιλογή \"Αποστολή με PairDrop\"</string>
     <string name="show_connectivity_card_title">Προειδοποίηση συνδεσιμότητας</string>
     <string name="show_connectivity_card_summary"> Εμφάνιση προειδοποίησης όταν δεν είστε συνδεδεμένοι με δίκτυο WiFi</string>
-    <string name="floating_text_selection_activity_label">Αποστολή με Snapdrop</string>
+    <string name="floating_text_selection_activity_label">Αποστολή με PairDrop</string>
     <string name="permission_not_granted">παρακαλώ, παραχωρήστε την απαιτούμενη άδεια</string>
     <string name="permission_not_granted_fallback">παρακαλώ, παραχωρήστε την απαιτούμενη άδεια χειροκίνητα</string>
     <string name="open_settings">άνοιγμα ρυθμίσεων</string>
