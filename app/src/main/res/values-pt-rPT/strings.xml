@@ -22,8 +22,6 @@
     <string name="keep_on_summary">(Recomendado) Muitos dispositivos têm problemas com transferências interrompidas quando a tela é desligada</string>
     <string name="keep_on_title">Mantenha a tela ligada durante a transferência</string>
     <string name="floating_text_selection_title">Seleção de texto flutuante</string>
-    <string name="floating_text_selection_summary">Ao selecionar texto em outras aplicações, será exibida uma opção \"Enviar com Snapdrop\"</string>
-    <string name="floating_text_selection_activity_label">Enviar com o Snapdrop</string>
     <string name="settings_theme_title">Tema</string>
     <string-array name="darkmode_entries">
         <item>Padrão do Sistema</item>
