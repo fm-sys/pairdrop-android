@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_long">Snapdrop &amp; PairDrop pro Android</string>
+    <string name="app_name_long">PairDrop pro Android</string>
     <string name="app_name_slogan">Přenášejte soubory hladce mezi všemi zařízeními - Snapdrop.</string>
     <string name="err_no_browser">Nelze spustit prohlížeč</string>
     <string name="err_no_app">Pro otevření tohoto souboru není nainstalována žádná aplikace</string>
@@ -11,7 +11,7 @@
     <string name="onboarding_button_finish">dokončit</string>
     <string name="onboarding_choose_server">Vyberte adresu serveru</string>
     <string name="onboarding_choose_server_short">vybrat server</string>
-    <string name="onboarding_choose_server_description">Tato aplikace je optimalizovaným klientem pro webové aplikace Snapdrop a PairDrop.\nVyberte jednu z následujících instancí nebo zadejte vlastní adresu URL pro připojení.\n\nPoznámka: Musíte vybrat stejnou adresu URL na všech zařízeních.</string>
+    <string name="onboarding_choose_server_description">Tato aplikace je optimalizovaným klientem pro webové aplikace Snapdrop a PairDrop.\n\nPoznámka: Na všech zařízeních musíte zvolit stejnou URL adresu.</string>
     <string name="onboarding_storage_permission">Oprávnění úložiště</string>
     <string name="onboarding_storage_permission_description">Tato aplikace je nástroj pro sdílení souborů. Proto je vyžadováno oprávnění pro její používání.</string>
     <string name="onboarding_server_pairdrop_summary">(doporučeno)\nPárování, internetový přenos a zaměření na stabilitu.</string>
@@ -19,6 +19,7 @@
     <string name="onboarding_server_snapdrop_summary_server_warning">Varování: Nestability serveru</string>
     <string name="onboarding_server_custom">Vlastní URL</string>
     <string name="onboarding_server_custom_summary">Pokročilí uživatelé mohou také hostovat své vlastní servery.</string>
+    <string name="onboarding_server_custom_add">Přidat server</string>
     <string name="onboarding_howto">Jak na to</string>
     <string name="onboarding_howto_summary">1. Otevřete tuto aplikaci nebo %s na jakémkoli jiném zařízení v místní WiFi síti.\n\n2. Klepněte na zařízení a vyberte soubory, které chcete odeslat.\n\n3. A je to! Soubory budou odeslány…</string>
     <string name="onboarding_howto_troubleshoot">Tip: Zařízení musí být připojena ke stejné síti WiFi. Pokud je VPN povoleno, nemusí to fungovat.</string>
@@ -34,7 +35,7 @@
     <string name="retry">opakovat</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">O aplikaci</string>
-    <string name="title_activity_about">O Snapdrop &amp; PairDrop pro Android</string>
+    <string name="title_activity_about">O aplikaci PairDrop pro Android</string>
     <string name="pref_about_title">O této aplikaci</string>
     <string name="view_downloads">Zobrazit stažené soubory</string>
     <string name="pref_category_settings">Nastavení</string>
@@ -46,13 +47,15 @@
     <string name="version">Verze</string>
     <string name="pref_device_name_title">Název zařízení</string>
     <string name="pref_device_name_summary">Nastavte vlastní název zařízení</string>
+    <string name="notifications_summary">Zobrazit oznámení po dokončení stahování</string>
+    <string name="notifications_title">Oznámení</string>
     <string name="keep_on_summary">(Doporučeno) Mnoho zařízení má problémy s přerušením přenosu při vypnutí obrazovky</string>
     <string name="keep_on_title">Během přenosu udržujte obrazovku zapnutou</string>
     <string name="floating_text_selection_title">Výběr plovoucího textu</string>
-    <string name="floating_text_selection_summary">Při výběru textu v jiných aplikacích bude zobrazena možnost \"Odeslat aplikací Snapdrop\"</string>
+    <string name="floating_text_selection_summary">Při výběru textu v jiných aplikacích bude zobrazena možnost \"Odeslat aplikací PairDrop\"</string>
     <string name="show_connectivity_card_title">Upozornění na připojení</string>
     <string name="show_connectivity_card_summary"> Zobrazit varování, pokud nejste připojeni k síti WiFi</string>
-    <string name="floating_text_selection_activity_label">Odeslat aplikací Snapdrop</string>
+    <string name="floating_text_selection_activity_label">Odeslat aplikací PairDrop</string>
     <string name="permission_not_granted">udělte prosím potřebná oprávnění</string>
     <string name="permission_not_granted_fallback">udělte prosím potřebná oprávnění manuálně</string>
     <string name="open_settings">otevřít nastavení</string>

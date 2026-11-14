@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name_long">Snapdrop for Android</string>
     <string name="app_name_slogan">在您的裝置間無縫傳輸檔案。</string>
     <string name="err_no_browser">無法開啟瀏覽器</string>
     <string name="err_no_app">找不到可開啟此檔案的應用程式</string>
@@ -10,7 +11,7 @@
     <string name="onboarding_button_finish">完成</string>
     <string name="onboarding_choose_server">選擇一個伺服器位址</string>
     <string name="onboarding_choose_server_short">選擇伺服器</string>
-    <string name="onboarding_choose_server_description">這個應用程式是專為 Web 應用程式 Snapdrop 和 PairDrop 最佳化的用戶端。\n選擇以下執行個體或指定一個自訂 URL 以進行連線。\n\n注意：您必須在所有裝置上選擇相同的 URL。</string>
+    <string name="onboarding_choose_server_description">這個軟體是 Snapdrop 和 PairDrop 網頁應用程式的優化客戶端。\n\n注意：請務必在所有裝置上選擇相同的網址。</string>
     <string name="onboarding_storage_permission">儲存空間權限</string>
     <string name="onboarding_storage_permission_description">這是一個用於檔案分享的公用程式，因此，若要使用它，需要授予儲存空間權限。</string>
     <string name="onboarding_server_pairdrop_summary">(建議)\n配對功能，網際網路傳輸並專注於穩定性。</string>
@@ -34,7 +35,7 @@
     <string name="retry">重試</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">關於</string>
-    <string name="title_activity_about">關於 Snapdrop &amp; PairDrop for Android</string>
+    <string name="title_activity_about">關於 PairDrop for Android</string>
     <string name="pref_about_title">關於這個應用程式</string>
     <string name="view_downloads">檢視下載</string>
     <string name="pref_category_settings">設定</string>
@@ -51,10 +52,10 @@
     <string name="keep_on_summary">如果遇到螢幕休眠而中斷傳輸請開啟這個選項</string>
     <string name="keep_on_title">傳輸時保持螢幕開啟</string>
     <string name="floating_text_selection_title">浮動式文字選取</string>
-    <string name="floating_text_selection_summary">使用其他應用程式選取文字時，顯示「使用 Snapdrop 傳送」選項</string>
+    <string name="floating_text_selection_summary">使用其他應用程式選取文字時，顯示「使用 PairDrop 傳送」選項</string>
     <string name="show_connectivity_card_title">連線能力警告</string>
     <string name="show_connectivity_card_summary"> 在未連線至 WiFi 網路時顯示警告</string>
-    <string name="floating_text_selection_activity_label">使用 Snapdrop 傳送</string>
+    <string name="floating_text_selection_activity_label">使用 PairDrop 傳送</string>
     <string name="permission_not_granted">請授予必要權限</string>
     <string name="permission_not_granted_fallback">請手動授予必要權限</string>
     <string name="open_settings">開啟設定</string>
