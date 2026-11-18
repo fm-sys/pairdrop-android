@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> This project hasn't seen major updates for quite a while now, since my focus shifted to other projects and activities. To keep things moving, I would be more than happy to welcome new contributors! 😊 
+
+---
+
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/fm-sys/snapdrop-android)](https://github.com/fm-sys/snapdrop-android/releases/latest) 
 [![CI build](https://github.com/fm-sys/snapdrop-android/workflows/APK%20Build/badge.svg?branch=master)](https://github.com/fm-sys/snapdrop-android) 
 [![Uptime status page](https://img.shields.io/uptimerobot/ratio/m794250124-e911aac785f4e3425de6b894?label=PairDrop%20uptime)](https://stats.uptimerobot.com/1VgjOC6P1R)
