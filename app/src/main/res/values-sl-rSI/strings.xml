@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_long">Snapdrop &amp; PairDrop za Android</string>
     <string name="app_name_slogan">Enostavno prenašanje datotek med vašimi napravami.</string>
     <string name="err_no_browser">Brskalnika ni mogoče odpreti</string>
     <string name="err_no_app">Ni najdene aplikacije za odpiranje te vrste datoteke</string>
@@ -11,7 +10,6 @@
     <string name="onboarding_button_finish">konec</string>
     <string name="onboarding_choose_server">Izberite naslov strežnika</string>
     <string name="onboarding_choose_server_short">izberite strežnik</string>
-    <string name="onboarding_choose_server_description">Ta aplikacija je optimiziran odjemalec za spletni aplikaciji Snapdrop in PairDrop.\nIzberite enega od naslednjih primerov ali pa vnesite lasten URL za povezavo.\n\nOpomba: v vseh napravah morate izbrati isti URL.</string>
     <string name="onboarding_storage_permission">Dovoljenje za shrambo</string>
     <string name="onboarding_storage_permission_description">Ta aplikacija je orodje za deljenje datotek. Zato je potrebno dovoljenje za shranjevanje, da jo lahko uporabljate.</string>
     <string name="onboarding_server_pairdrop_summary">(priporočeno)\nZnačilnosti povezovanja, prenosa prek interneta in poudarek na stabilnosti.</string>
@@ -34,7 +32,6 @@
     <string name="retry">poskusi znova</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">O programu</string>
-    <string name="title_activity_about">O Snapdrop &amp; PairDrop za Android</string>
     <string name="pref_about_title">O tej aplikaciji</string>
     <string name="view_downloads">Oglej si prenose</string>
     <string name="pref_category_settings">Nastavitve</string>
@@ -49,10 +46,8 @@
     <string name="keep_on_summary">(Priporočeno) Številne naprave imajo težave s prekinitvijo prenosa, ko se zaslon izklopi</string>
     <string name="keep_on_title">Med prenosom ne izklopi zaslona</string>
     <string name="floating_text_selection_title">Lebdeči izbor besedila</string>
-    <string name="floating_text_selection_summary">Pri izbiri besedila v drugih aplikacijah se bo prikazala možnost \"Pošlji s Snapdrop-om\"</string>
     <string name="show_connectivity_card_title">Opozorilo o povezljivosti</string>
     <string name="show_connectivity_card_summary"> Opozori me, če nisem povezan z WiFi omrežjem</string>
-    <string name="floating_text_selection_activity_label">Pošlji s Snapdrop-om</string>
     <string name="permission_not_granted">prosimo omogočite potrebna dovoljenja</string>
     <string name="permission_not_granted_fallback">prosimo omogočite potrebna dovoljenja ročno</string>
     <string name="open_settings">odpri nastavitve</string>
