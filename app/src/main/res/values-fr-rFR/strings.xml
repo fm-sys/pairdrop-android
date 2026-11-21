@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_long">Snapdrop &amp; PairDrop pour Android</string>
+    <string name="app_name_long">PairDrop pour Android</string>
     <string name="app_name_slogan">Transférez des fichiers en toute simplicité entre tous vos appareils.</string>
     <string name="err_no_browser">Impossible d\'ouvrir le navigateur</string>
     <string name="err_no_app">Aucune application installée pour ouvrir ce fichier</string>
@@ -11,7 +11,7 @@
     <string name="onboarding_button_finish">terminer</string>
     <string name="onboarding_choose_server">Choisir une adresse de serveur</string>
     <string name="onboarding_choose_server_short">Choisir le serveur</string>
-    <string name="onboarding_choose_server_description">Cette application est un client optimisé pour les applications web Snapdrop et PairDrop.\nChoisissez l\'une des instances suivantes ou spécifiez un URL personnalisé à laquelle vous devez vous connecter.\n\nNote : Vous devez choisir le même URL sur tous les appareils.</string>
+    <string name="onboarding_choose_server_description">Cette application est un client optimisé pour les applications web Snapdrop et PairDrop.\n\nNote : Vous devez choisir la même URL sur tous les appareils.</string>
     <string name="onboarding_storage_permission">Autorisation d\'accès au stockage</string>
     <string name="onboarding_storage_permission_description">Cette application est un utilitaire de partage de fichiers. Par conséquent, une autorisation de stockage est nécessaire pour l\'utiliser.</string>
     <string name="onboarding_server_pairdrop_summary">(recommandé)\nFonctionnalité d\'appairage, transfert par internet et priorité à la stabilité.</string>
@@ -35,7 +35,7 @@
     <string name="retry">Réessayer</string>
     <!-- Settings / About -->
     <string name="home_as_up_indicator_about">À propos</string>
-    <string name="title_activity_about">À propos de Snapdrop &amp; PairDrop pour Android</string>
+    <string name="title_activity_about">À propos de PairDrop pour Android</string>
     <string name="pref_about_title">À propos de cette application</string>
     <string name="view_downloads">Afficher les téléchargements</string>
     <string name="pref_category_settings">Paramètres</string>
@@ -44,16 +44,18 @@
     <string name="support_us">Soutenez-nous</string>
     <string name="support_us_summary">Voir, comment vous pouvez soutenir ce projet</string>
     <string name="read_more">voir plus</string>
+    <string name="version">Version</string>
     <string name="pref_device_name_title">Nom de l\'appareil</string>
     <string name="pref_device_name_summary">Définir un nom d\'appareil personnalisé</string>
     <string name="notifications_summary">Afficher une notification lorsque le téléchargement est terminé</string>
+    <string name="notifications_title">Notifications</string>
     <string name="keep_on_summary">(Recommandé) De nombreux appareils ont des problèmes d\"interruption de transfert lorsque l\'écran s\'éteint</string>
     <string name="keep_on_title">Garder l\'écran allumé pendant le transfert</string>
     <string name="floating_text_selection_title">Sélection de texte flottante</string>
     <string name="floating_text_selection_summary">Lors de la sélection de texte dans d\'autres applications, une option \"Envoyer via Snapdrop\" sera affichée</string>
     <string name="show_connectivity_card_title">Avertissement sur la connexion</string>
     <string name="show_connectivity_card_summary"> Afficher un avertissement lorsque vous n\'êtes pas connecté à un réseau Wi-Fi</string>
-    <string name="floating_text_selection_activity_label">Envoyer via Snapdrop</string>
+    <string name="floating_text_selection_activity_label">Envoyer via PairDrop</string>
     <string name="permission_not_granted">veuillez accorder l\'autorisation nécessaire</string>
     <string name="permission_not_granted_fallback">veuillez accorder manuellement l\'autorisation nécessaire</string>
     <string name="open_settings">ouvrir les paramètres</string>
