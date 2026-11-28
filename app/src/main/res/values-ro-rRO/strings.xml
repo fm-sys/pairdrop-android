@@ -9,7 +9,6 @@
     <string name="onboarding_button_grant">Acordă permisiuni</string>
     <string name="onboarding_button_finish">Finalizare</string>
     <string name="onboarding_choose_server">Alege o adresă de server</string>
-    <string name="onboarding_choose_server_description">Această aplicație este un client optimizat pentru aplicația web Snapdrop și PairDrop.\nAlege una dintre următoarele instanțe sau specifică un URL personalizat la care să te conectezi.\n\nNotă: Trebuie să alegeți același URL pe toate dispozitivele.</string>
     <string name="onboarding_storage_permission">Permisiuni pentru stocare</string>
     <string name="onboarding_storage_permission_description">Această aplicație este pentru partajări. De aceea sunt necesare permisiuni pentru stocare.</string>
     <string name="onboarding_server_pairdrop_summary">(recomandat)\nFuncția de asociere, transfer internet și concentrare asupra stabilității.</string>
@@ -42,8 +41,6 @@
     <string name="keep_on_summary">(Recomandat) Multe dispozitive au probleme cu transferurile întrerupte atunci când ecranul se oprește</string>
     <string name="keep_on_title">Păstrează ecranul pornit în timpul transferului</string>
     <string name="floating_text_selection_title">Selecție de text plutitoare</string>
-    <string name="floating_text_selection_summary">La selectarea textului în alte aplicații, o opțiune \"Trimite cu Snapdrop\" va fi afișată</string>
-    <string name="floating_text_selection_activity_label">Trimite prin Snapdrop</string>
     <string name="permission_not_granted">vă rugăm să acordați permisiunea necesară</string>
     <string name="permission_not_granted_fallback">vă rugăm să acordați manual permisiunea necesară</string>
     <string name="open_settings">deschide setări</string>

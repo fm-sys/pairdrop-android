@@ -22,8 +22,6 @@
     <string name="keep_on_summary">(सिफारिस गरिएको) धेरै यन्त्रहरूमा स्क्रिन बन्द हुँदा स्थानान्तरणमा अवरोध हुने समस्याहरू छन्</string>
     <string name="keep_on_title">स्थानान्तरण गर्दा स्क्रिन अन राख्नुहोस्</string>
     <string name="floating_text_selection_title">फ्लोटिंग पाठ चयन</string>
-    <string name="floating_text_selection_summary">अन्य एपहरूमा पाठ चयन गर्दा, \"Snapdrop सँग पठाउनुहोस्\" विकल्प देखाइनेछ</string>
-    <string name="floating_text_selection_activity_label">Snapdrop मार्फत पठाउनुहोस्</string>
     <string name="settings_theme_title">थीम</string>
     <string-array name="darkmode_entries">
         <item>पूर्वनिर्धारित प्रणाली</item>
